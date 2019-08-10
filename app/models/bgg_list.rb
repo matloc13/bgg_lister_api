@@ -1,0 +1,2 @@
+class BggList < ApplicationRecord
+end

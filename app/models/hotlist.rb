@@ -1,0 +1,2 @@
+class Hotlist < ApplicationRecord
+end
