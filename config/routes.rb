@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
-
   resources :users do
-    resources :listnames  do
-      resources :games
+    collection do
+      post '/login', to: 'users#login'
+        resources :listnames  do
+          resources :games
+        end
+      end
     end
-  end
+
 
   resources :hotlists
   # resources :solos

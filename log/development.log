@@ -39521,3 +39521,3521 @@ Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.7ms | Allocations: 2152)
 Completed 200 OK in 102ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17429)
 
 
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-10 17:50:22 -0500
+Started GET "/users/2" for ::1 at 2019-08-10 17:50:22 -0500
+Processing by ListnamesController#index as */*
+  Parameters: {"user_id"=>"undefined"}
+Processing by UsersController#show as */*
+Started GET "/hotlists" for ::1 at 2019-08-10 17:50:22 -0500
+  [1m[36mListname Load (0.5ms)[0m  [1m[34mSELECT "listnames".* FROM "listnames"[0m
+  ↳ app/controllers/listnames_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.5ms | Allocations: 1520)
+
+
+  Parameters: {"id"=>"2"}
+Processing by HotlistsController#index as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.8ms | Allocations: 874)
+
+
+Completed 200 OK in 97ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16075)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-10 17:51:44 -0500
+Started GET "/users/2" for ::1 at 2019-08-10 17:51:44 -0500
+Started GET "/hotlists" for ::1 at 2019-08-10 17:51:44 -0500
+Processing by ListnamesController#index as */*
+  Parameters: {"user_id"=>"undefined"}
+Processing by UsersController#show as */*
+  [1m[36mListname Load (2.4ms)[0m  [1m[34mSELECT "listnames".* FROM "listnames"[0m
+Processing by HotlistsController#index as */*
+  Parameters: {"id"=>"2"}
+  ↳ app/controllers/listnames_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 2.4ms | Allocations: 2874)
+
+
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 1.5ms | Allocations: 1523)
+
+
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16554)
+
+
+Started GET "/users/2" for ::1 at 2019-08-10 18:21:44 -0500
+Started GET "/hotlists" for ::1 at 2019-08-10 18:21:44 -0500
+  [1m[35m (4.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HotlistsController#index as */*
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+Completed 200 OK in 20ms (Views: 0.9ms | ActiveRecord: 5.0ms | Allocations: 6629)
+
+
+Completed 200 OK in 149ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 22526)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#index as */*
+Completed 200 OK in 104ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14861)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-10 18:21:55 -0500
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-10 18:21:55 -0500
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-10 18:21:55 -0500
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-10 18:21:55 -0500
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193728"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"91080"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"159692"}
+  Parameters: {"id"=>"180199"}
+Completed 200 OK in 89ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17328)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-10 18:21:55 -0500
+Completed 200 OK in 96ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 24901)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+Completed 200 OK in 92ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26950)
+
+
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"67601"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34119)
+
+
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40364)
+
+
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193949"}
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"182340"}
+Completed 200 OK in 111ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32258)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Completed 200 OK in 111ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30736)
+
+
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26338)
+
+
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Completed 200 OK in 111ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 33170)
+
+
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Completed 200 OK in 106ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 37257)
+
+
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Completed 200 OK in 113ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41588)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+Completed 200 OK in 108ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40990)
+
+
+  Parameters: {"id"=>"71836"}
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"143404"}
+Completed 200 OK in 109ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42738)
+
+
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"102794"}
+Completed 200 OK in 297ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 110957)
+
+
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"237182"}
+Completed 200 OK in 96ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 46017)
+
+
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Completed 200 OK in 93ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 35056)
+
+
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 106ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 32667)
+
+
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42261)
+
+
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-10 18:21:55 -0500
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+Completed 200 OK in 94ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44086)
+
+
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-10 18:21:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Completed 200 OK in 106ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42748)
+
+
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Completed 200 OK in 104ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 45225)
+
+
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Completed 200 OK in 106ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42404)
+
+
+Completed 200 OK in 108ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 50372)
+
+
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-10 18:21:56 -0500
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"229853"}
+Completed 200 OK in 312ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44481)
+
+
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Completed 200 OK in 363ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 63556)
+
+
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208800"}
+Completed 200 OK in 99ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 22032)
+
+
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+Completed 200 OK in 94ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15049)
+
+
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"72321"}
+Completed 200 OK in 428ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 48772)
+
+
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+Completed 200 OK in 447ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 59866)
+
+
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Completed 200 OK in 98ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33070)
+
+
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+Completed 200 OK in 513ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 101117)
+
+
+Completed 200 OK in 112ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44821)
+
+
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-10 18:21:56 -0500
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Completed 200 OK in 97ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32244)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+Completed 200 OK in 98ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33808)
+
+
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-10 18:21:56 -0500
+Completed 200 OK in 133ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 61258)
+
+
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-10 18:21:56 -0500
+  Parameters: {"id"=>"256960"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"187617"}
+Completed 200 OK in 99ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 35001)
+
+
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+Completed 200 OK in 124ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44662)
+
+
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 93ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43418)
+
+
+Completed 200 OK in 119ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33604)
+
+
+Completed 200 OK in 129ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42345)
+
+
+Completed 200 OK in 117ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40839)
+
+
+Completed 200 OK in 129ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39698)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-10 18:21:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 94ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 6645)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-10 18:22:03 -0500
+Processing by ListnamesController#index as */*
+  Parameters: {"user_id"=>"undefined"}
+  [1m[36mListname Load (0.7ms)[0m  [1m[34mSELECT "listnames".* FROM "listnames"[0m
+  ↳ app/controllers/listnames_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 6.9ms | ActiveRecord: 5.5ms | Allocations: 6446)
+
+
+Started GET "/users/2" for ::1 at 2019-08-10 18:25:55 -0500
+Started GET "/hotlists" for ::1 at 2019-08-10 18:25:55 -0500
+Processing by HotlistsController#index as */*
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 1.0ms | Allocations: 784)
+
+
+Completed 200 OK in 108ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16261)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-10 18:26:21 -0500
+Started GET "/users/2" for ::1 at 2019-08-10 18:26:21 -0500
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+Processing by HotlistsController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 1.1ms | Allocations: 951)
+
+
+Completed 200 OK in 116ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16089)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-10 18:34:12 -0500
+Processing by ListnamesController#index as */*
+  Parameters: {"user_id"=>"undefined"}
+  [1m[36mListname Load (0.6ms)[0m  [1m[34mSELECT "listnames".* FROM "listnames"[0m
+  ↳ app/controllers/listnames_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.6ms | Allocations: 5663)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-10 18:45:47 -0500
+Processing by BggListsController#index as */*
+Completed 200 OK in 126ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14429)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-10 18:45:47 -0500
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-10 18:45:47 -0500
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-10 18:45:47 -0500
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-10 18:45:47 -0500
+  Parameters: {"id"=>"193728"}
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-10 18:45:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"91080"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+  Parameters: {"id"=>"159692"}
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20566)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-10 18:45:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Completed 200 OK in 123ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 18098)
+
+
+Completed 200 OK in 127ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 23738)
+
+
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-10 18:45:47 -0500
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-10 18:45:47 -0500
+Completed 200 OK in 139ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34043)
+
+
+Completed 200 OK in 142ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40283)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-10 18:45:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"67601"}
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-10 18:45:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193949"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"182340"}
+Completed 200 OK in 108ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39427)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-10 18:45:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Completed 200 OK in 117ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20177)
+
+
+Completed 200 OK in 119ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25040)
+
+
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-10 18:45:47 -0500
+Completed 200 OK in 127ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32810)
+
+
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-10 18:45:47 -0500
+Completed 200 OK in 133ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39061)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-10 18:45:47 -0500
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-10 18:45:48 -0500
+  Parameters: {"id"=>"192457"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 46393)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+Completed 200 OK in 98ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 24181)
+
+
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"143404"}
+Completed 200 OK in 117ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 36985)
+
+
+Completed 200 OK in 115ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39987)
+
+
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-10 18:45:48 -0500
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"102794"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"237182"}
+Completed 200 OK in 116ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 36047)
+
+
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-10 18:45:48 -0500
+Completed 200 OK in 143ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 59106)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 123ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42632)
+
+
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+Completed 200 OK in 113ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 36667)
+
+
+  Parameters: {"id"=>"121921"}
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 46184)
+
+
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Completed 200 OK in 115ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 35751)
+
+
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Completed 200 OK in 131ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 45046)
+
+
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Completed 200 OK in 96ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 36108)
+
+
+Completed 200 OK in 107ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 51108)
+
+
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-10 18:45:48 -0500
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-10 18:45:48 -0500
+Completed 200 OK in 106ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 51919)
+
+
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+  Parameters: {"id"=>"229853"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Completed 200 OK in 104ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 56041)
+
+
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208800"}
+Completed 200 OK in 111ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55410)
+
+
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+Completed 200 OK in 109ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31026)
+
+
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"72321"}
+Completed 200 OK in 132ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41370)
+
+
+Completed 200 OK in 125ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 36724)
+
+
+Completed 200 OK in 139ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 53946)
+
+
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-10 18:45:48 -0500
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-10 18:45:48 -0500
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+  Parameters: {"id"=>"179275"}
+Completed 200 OK in 113ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 42283)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+Completed 200 OK in 101ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40164)
+
+
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Completed 200 OK in 94ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 12363)
+
+
+Completed 200 OK in 95ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 12935)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-10 18:45:48 -0500
+Completed 200 OK in 96ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 13002)
+
+
+Completed 200 OK in 103ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 19577)
+
+
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-10 18:45:48 -0500
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-10 18:45:48 -0500
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+  Parameters: {"id"=>"220588"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"187617"}
+Completed 200 OK in 98ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14604)
+
+
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 107ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 4425)
+
+
+Completed 200 OK in 109ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5050)
+
+
+Completed 200 OK in 119ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5879)
+
+
+Completed 200 OK in 105ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 4079)
+
+
+Completed 200 OK in 310ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 8144)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-10 18:45:48 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 84ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1052)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-10 18:46:28 -0500
+Started GET "/users/2" for ::1 at 2019-08-10 18:46:28 -0500
+Started GET "/hotlists" for ::1 at 2019-08-10 18:46:28 -0500
+Processing by ListnamesController#index as */*
+  Parameters: {"user_id"=>"undefined"}
+  [1m[36mListname Load (1.6ms)[0m  [1m[34mSELECT "listnames".* FROM "listnames"[0m
+  ↳ app/controllers/listnames_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 1.6ms | Allocations: 2155)
+
+
+Processing by HotlistsController#index as */*
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 0.8ms | Allocations: 4762)
+
+
+Completed 200 OK in 93ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 23132)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-10 18:46:32 -0500
+Processing by BggListsController#index as */*
+Completed 200 OK in 104ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14515)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-10 18:46:32 -0500
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-10 18:46:32 -0500
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-10 18:46:32 -0500
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-10 18:46:32 -0500
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-10 18:46:32 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+  Parameters: {"id"=>"193728"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"91080"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+  Parameters: {"id"=>"159692"}
+Completed 200 OK in 91ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 11354)
+
+
+Completed 200 OK in 93ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16462)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-10 18:46:32 -0500
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-10 18:46:32 -0500
+Completed 200 OK in 102ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 24828)
+
+
+Completed 200 OK in 108ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29930)
+
+
+Completed 200 OK in 122ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40090)
+
+
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-10 18:46:32 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+  Parameters: {"id"=>"62227"}
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-10 18:46:32 -0500
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-10 18:46:32 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"67601"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193949"}
+  Parameters: {"id"=>"182340"}
+Completed 200 OK in 85ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 11860)
+
+
+Completed 200 OK in 89ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17134)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-10 18:46:32 -0500
+Completed 200 OK in 96ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25090)
+
+
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-10 18:46:32 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-10 18:46:32 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Completed 200 OK in 106ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33648)
+
+
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40588)
+
+
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-10 18:46:32 -0500
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-10 18:46:32 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31705)
+
+
+Completed 200 OK in 109ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31879)
+
+
+Completed 200 OK in 113ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31084)
+
+
+Completed 200 OK in 146ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 58418)
+
+
+Completed 200 OK in 135ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 46486)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-10 18:46:32 -0500
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-10 18:46:32 -0500
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-10 18:46:32 -0500
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-10 18:46:32 -0500
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-10 18:46:32 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+  Parameters: {"id"=>"102794"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+  Parameters: {"id"=>"237182"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"143404"}
+Completed 200 OK in 88ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 13655)
+
+
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-10 18:46:32 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 100ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 21671)
+
+
+Completed 200 OK in 104ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26540)
+
+
+Completed 200 OK in 111ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39794)
+
+
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33543)
+
+
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-10 18:46:32 -0500
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-10 18:46:32 -0500
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-10 18:46:32 -0500
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-10 18:46:32 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+  Parameters: {"id"=>"169786"}
+Completed 200 OK in 95ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41091)
+
+
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Completed 200 OK in 84ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 27310)
+
+
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+Completed 200 OK in 93ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 37457)
+
+
+Completed 200 OK in 98ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 45356)
+
+
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-10 18:46:33 -0500
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"229853"}
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 57044)
+
+
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208800"}
+Completed 200 OK in 95ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55438)
+
+
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+Completed 200 OK in 90ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 51420)
+
+
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"72321"}
+Completed 200 OK in 109ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41771)
+
+
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+Completed 200 OK in 122ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 52597)
+
+
+Completed 200 OK in 115ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 46287)
+
+
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-10 18:46:33 -0500
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+Completed 200 OK in 84ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42818)
+
+
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+Completed 200 OK in 88ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40121)
+
+
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Completed 200 OK in 102ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41110)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+Completed 200 OK in 103ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 32013)
+
+
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+Completed 200 OK in 131ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41780)
+
+
+Completed 200 OK in 120ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41364)
+
+
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-10 18:46:33 -0500
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"187617"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+Completed 200 OK in 138ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 44203)
+
+
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 103ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 40016)
+
+
+Completed 200 OK in 117ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40880)
+
+
+Completed 200 OK in 125ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34496)
+
+
+Completed 200 OK in 129ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40486)
+
+
+Completed 200 OK in 119ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39117)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-10 18:46:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 133ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 6798)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-10 18:46:55 -0500
+Processing by ListnamesController#index as */*
+  Parameters: {"user_id"=>"undefined"}
+  [1m[36mListname Load (0.7ms)[0m  [1m[34mSELECT "listnames".* FROM "listnames"[0m
+  ↳ app/controllers/listnames_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.7ms | Allocations: 1395)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-10 18:48:46 -0500
+Started GET "/users/2" for ::1 at 2019-08-10 18:48:46 -0500
+Processing by ListnamesController#index as */*
+  Parameters: {"user_id"=>"undefined"}
+Started GET "/hotlists" for ::1 at 2019-08-10 18:48:46 -0500
+Processing by UsersController#show as */*
+  [1m[36mListname Load (1.1ms)[0m  [1m[34mSELECT "listnames".* FROM "listnames"[0m
+  Parameters: {"id"=>"2"}
+  ↳ app/controllers/listnames_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 1.1ms | Allocations: 2739)
+
+
+Processing by HotlistsController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 3.3ms | Allocations: 2404)
+
+
+Completed 200 OK in 93ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 16262)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-10 18:49:23 -0500
+Started GET "/users/2" for ::1 at 2019-08-10 18:49:23 -0500
+Processing by ListnamesController#index as */*
+  Parameters: {"user_id"=>"undefined"}
+Started GET "/hotlists" for ::1 at 2019-08-10 18:49:23 -0500
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mListname Load (1.5ms)[0m  [1m[34mSELECT "listnames".* FROM "listnames"[0m
+  ↳ app/controllers/listnames_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 1.5ms | Allocations: 2738)
+
+
+Processing by HotlistsController#index as */*
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 3.2ms | Allocations: 2910)
+
+
+Completed 200 OK in 149ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15703)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5816877095452814055)[0m
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to EditUsername (20190811014906)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.8ms)[0m  [1m[35mALTER TABLE "users" RENAME COLUMN "password" TO "password_digest"[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190811014906"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(5816877095452814055)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (2.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Thomas"], ["password_digest", "$2a$12$itNeqkaULtOIek331d2x4esLYvBwh3lxp0WBy4xDZZCQ4blMoveL."], ["created_at", "2019-08-11 04:59:28.706572"], ["updated_at", "2019-08-11 04:59:28.706572"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started POST "/users/login" for ::1 at 2019-08-11 00:03:34 -0500
+  
+SyntaxError (/Users/matloc/Documents/seiWork/project_4/bgg_lister_api/config/routes.rb:21: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+config/routes.rb:21: syntax error, unexpected keyword_end, expecting end-of-input
+config/routes.rb:21: syntax error, unexpected keyword_end, expecting end-of-input
+Started POST "/users/login" for ::1 at 2019-08-11 00:03:52 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+AbstractController::ActionNotFound (The action 'login' could not be found for UsersController):
+  
+actionpack (6.0.0.rc2) lib/abstract_controller/base.rb:131:in `process'
+actionpack (6.0.0.rc2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0.rc2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0.rc2) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0.rc2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0.rc2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0.rc2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0.rc2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0.rc2) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (6.0.0.rc2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/users/login" for ::1 at 2019-08-11 00:07:26 -0500
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Thomas"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5:in `login'
+Completed 200 OK in 283ms (Views: 0.8ms | ActiveRecord: 5.4ms | Allocations: 6927)
+
+
+Started POST "/users/login" for ::1 at 2019-08-11 00:15:21 -0500
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Thomas"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5:in `login'
+Completed 500 Internal Server Error in 277ms (ActiveRecord: 0.7ms | Allocations: 5174)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/users_controller.rb:65:in `create_token'
+app/controllers/users_controller.rb:8:in `login'
+Started POST "/users/login" for ::1 at 2019-08-11 00:16:04 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Thomas"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5:in `login'
+Completed 500 Internal Server Error in 367ms (ActiveRecord: 5.7ms | Allocations: 51379)
+
+
+  
+NameError (undefined local variable or method `token' for #<UsersController:0x00007f9235e49020>
+Did you mean?  toekn):
+  
+app/controllers/users_controller.rb:9:in `login'
+Started POST "/users/login" for ::1 at 2019-08-11 00:16:31 -0500
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Thomas"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5:in `login'
+Completed 200 OK in 277ms (Views: 0.6ms | ActiveRecord: 3.2ms | Allocations: 5491)
+
+
+Started GET "/users" for ::1 at 2019-08-11 00:19:18 -0500
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms | Allocations: 22738)
+
+
+  
+NoMethodError (undefined method `authenticate_token' for #<UsersController:0x00007f923423ccb0>):
+  
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:182:in `block (2 levels) in halting_and_conditional'
+actionpack (6.0.0.rc2) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:183:in `block in halting_and_conditional'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.0.rc2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.0.rc2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.0.rc2) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.0.rc2) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.0.rc2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.0.rc2) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.0.rc2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.0.rc2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.0.rc2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.0.rc2) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.0.rc2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0.rc2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0.rc2) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0.rc2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0.rc2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0.rc2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0.rc2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0.rc2) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (6.0.0.rc2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2019-08-11 00:19:19 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/" for ::1 at 2019-08-11 00:22:02 -0500
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms | Allocations: 22807)
+
+
+  
+NoMethodError (undefined method `authenticate_token' for #<UsersController:0x00007f9235525db8>):
+  
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:182:in `block (2 levels) in halting_and_conditional'
+actionpack (6.0.0.rc2) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:183:in `block in halting_and_conditional'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.0.rc2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.0.rc2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.0.rc2) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.0.rc2) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.0.rc2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.0.rc2) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.0.rc2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.0.rc2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.0.rc2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.0.rc2) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.0.rc2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0.rc2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0.rc2) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0.rc2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0.rc2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0.rc2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0.rc2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0.rc2) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (6.0.0.rc2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users" for ::1 at 2019-08-11 00:23:18 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:21:in `index'
+Completed 200 OK in 12ms (Views: 6.3ms | ActiveRecord: 3.2ms | Allocations: 6017)
+
+
+Started POST "/users/login" for ::1 at 2019-08-11 00:27:18 -0500
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Thomas"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6:in `login'
+Completed 200 OK in 277ms (Views: 0.4ms | ActiveRecord: 3.1ms | Allocations: 5469)
+
+
+Started GET "/users" for ::1 at 2019-08-11 00:28:32 -0500
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}}
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 154)
+
+
+Started GET "/users" for ::1 at 2019-08-11 00:28:42 -0500
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}}
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 148)
+
+
+Started GET "/users" for ::1 at 2019-08-11 00:30:35 -0500
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}}
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 196)
+
+
+Started GET "/users" for ::1 at 2019-08-11 00:32:21 -0500
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}}
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 200)
+
+
+Started GET "/users" for ::1 at 2019-08-11 00:33:45 -0500
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}}
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 412)
+
+
+Started GET "/users" for ::1 at 2019-08-11 00:35:36 -0500
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:21:in `index'
+Completed 200 OK in 12ms (Views: 6.4ms | ActiveRecord: 3.2ms | Allocations: 6099)
+
+
+Started GET "/users/5" for ::1 at 2019-08-11 00:39:27 -0500
+  
+SyntaxError (/Users/matloc/Documents/seiWork/project_4/bgg_lister_api/app/controllers/application_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/application_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/application_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/users_controller.rb:1:in `<top (required)>'
+Started GET "/users/5" for ::1 at 2019-08-11 00:39:40 -0500
+Processing by UsersController#show as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}, "id"=>"5"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `get_current_user'
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 3.7ms | Allocations: 6033)
+
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Gollum"], ["password_digest", "$2a$12$mSeRNZeuMacIF5BX6EvZHuEo.Mg76xHrHnyE3y8XoZv/1jg/F.hGu"], ["created_at", "2019-08-11 05:46:16.143399"], ["updated_at", "2019-08-11 05:46:16.143399"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Started POST "/users/login" for ::1 at 2019-08-11 00:46:47 -0500
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"username"=>"Gollum", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Gollum"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `login'
+Completed 200 OK in 275ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 5358)
+
+
+Started GET "/users/6" for ::1 at 2019-08-11 00:47:05 -0500
+Processing by UsersController#show as */*
+  Parameters: {"user"=>{"username"=>"Gollum", "password"=>"[FILTERED]"}, "id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:60:in `set_user'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `get_current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `get_current_user'
+Filter chain halted as :authorize_user rendered or redirected
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.6ms | Allocations: 2136)
+
+
+Started GET "/users/6" for ::1 at 2019-08-11 00:47:58 -0500
+Processing by UsersController#show as */*
+  Parameters: {"user"=>{"username"=>"Gollum", "password"=>"[FILTERED]"}, "id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `get_current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `get_current_user'
+Filter chain halted as :authorize_user rendered or redirected
+Completed 200 OK in 18ms (Views: 0.2ms | ActiveRecord: 6.8ms | Allocations: 6506)
+
+
+Started POST "/users/6" for ::1 at 2019-08-11 00:48:20 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [POST] "/users/6"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/users/login" for ::1 at 2019-08-11 00:48:29 -0500
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"username"=>"Gollum", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Gollum"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `login'
+Completed 200 OK in 288ms (Views: 0.5ms | ActiveRecord: 6.3ms | Allocations: 7093)
+
+
+Started GET "/users/6" for ::1 at 2019-08-11 00:49:05 -0500
+Processing by UsersController#show as */*
+  Parameters: {"user"=>{"username"=>"Gollum", "password"=>"[FILTERED]"}, "id"=>"6"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `get_current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `get_current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `get_current_user'
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 2841)
+
+
+Started GET "/users/6" for ::1 at 2019-08-11 00:49:11 -0500
+Processing by UsersController#show as */*
+  Parameters: {"user"=>{"username"=>"Gollum", "password"=>"[FILTERED]"}, "id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `get_current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `get_current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `get_current_user'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 2651)
+
+
+Started GET "/users/5" for ::1 at 2019-08-11 00:49:15 -0500
+Processing by UsersController#show as */*
+  Parameters: {"user"=>{"username"=>"Gollum", "password"=>"[FILTERED]"}, "id"=>"5"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `get_current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `get_current_user'
+Filter chain halted as :authorize_user rendered or redirected
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.8ms | Allocations: 2014)
+
+
+Started GET "/users/2" for ::1 at 2019-08-11 00:51:01 -0500
+Started GET "/hotlists" for ::1 at 2019-08-11 00:51:01 -0500
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-11 00:51:01 -0500
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 686)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/users/undefined/listnames"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Processing by HotlistsController#index as */*
+Completed 200 OK in 616ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15583)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-11 00:51:17 -0500
+Started GET "/users/2" for ::1 at 2019-08-11 00:51:17 -0500
+Started GET "/hotlists" for ::1 at 2019-08-11 00:51:17 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/undefined/listnames"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+Processing by HotlistsController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 1.2ms | Allocations: 1601)
+
+
+Completed 200 OK in 523ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15932)
+
+
+Started GET "/users/2" for ::1 at 2019-08-11 00:51:29 -0500
+Started GET "/hotlists" for ::1 at 2019-08-11 00:51:29 -0500
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Processing by HotlistsController#index as */*
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 1515)
+
+
+Completed 200 OK in 126ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 15591)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-11 00:51:38 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/undefined/listnames"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/2" for ::1 at 2019-08-11 00:51:42 -0500
+Started GET "/hotlists" for ::1 at 2019-08-11 00:51:42 -0500
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+Processing by HotlistsController#index as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 815)
+
+
+Completed 200 OK in 118ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 15663)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-11 00:51:45 -0500
+Processing by BggListsController#index as */*
+Completed 200 OK in 149ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14502)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-11 00:51:45 -0500
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-11 00:51:45 -0500
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-11 00:51:45 -0500
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-11 00:51:45 -0500
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-11 00:51:45 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"91080"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193728"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"159692"}
+Completed 200 OK in 357ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 8536)
+
+
+Completed 200 OK in 385ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 22874)
+
+
+Completed 200 OK in 368ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 22491)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-11 00:51:46 -0500
+Completed 200 OK in 401ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41550)
+
+
+Completed 200 OK in 398ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 35627)
+
+
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-11 00:51:46 -0500
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-11 00:51:46 -0500
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-11 00:51:46 -0500
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-11 00:51:46 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"182340"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193949"}
+  Parameters: {"id"=>"67601"}
+Completed 200 OK in 293ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 9037)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-11 00:51:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Completed 200 OK in 316ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 18498)
+
+
+Completed 200 OK in 317ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 24536)
+
+
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-11 00:51:46 -0500
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-11 00:51:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Completed 200 OK in 348ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 36302)
+
+
+Completed 200 OK in 346ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40348)
+
+
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-11 00:51:46 -0500
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-11 00:51:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Completed 200 OK in 228ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 27256)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-11 00:51:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+Completed 200 OK in 212ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 19237)
+
+
+Completed 200 OK in 219ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 28809)
+
+
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-11 00:51:46 -0500
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-11 00:51:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"143404"}
+Processing by BggListsController#show as */*
+Completed 200 OK in 257ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 53919)
+
+
+  Parameters: {"id"=>"102794"}
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-11 00:51:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"237182"}
+Completed 200 OK in 136ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 35743)
+
+
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-11 00:51:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Completed 200 OK in 142ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 21386)
+
+
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-11 00:51:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 158ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 37129)
+
+
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-11 00:51:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+Completed 200 OK in 463ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 112980)
+
+
+Completed 200 OK in 180ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 48734)
+
+
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-11 00:51:46 -0500
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-11 00:51:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Completed 200 OK in 136ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 47739)
+
+
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-11 00:51:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Completed 200 OK in 184ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 48271)
+
+
+Completed 200 OK in 150ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30015)
+
+
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-11 00:51:47 -0500
+Completed 200 OK in 194ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 66678)
+
+
+Completed 200 OK in 165ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 52343)
+
+
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-11 00:51:47 -0500
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-11 00:51:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-11 00:51:47 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+  Parameters: {"id"=>"229853"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Completed 200 OK in 181ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 57385)
+
+
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-11 00:51:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208800"}
+Completed 200 OK in 176ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20515)
+
+
+Completed 200 OK in 184ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31604)
+
+
+Completed 200 OK in 192ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40791)
+
+
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-11 00:51:47 -0500
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-11 00:51:47 -0500
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-11 00:51:47 -0500
+Processing by BggListsController#show as */*
+Completed 200 OK in 196ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 48889)
+
+
+  Parameters: {"id"=>"72321"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+  Parameters: {"id"=>"255640"}
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-11 00:51:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Completed 200 OK in 150ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 47828)
+
+
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-11 00:51:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+Completed 200 OK in 155ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14459)
+
+
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-11 00:51:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+Completed 200 OK in 166ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 21878)
+
+
+Completed 200 OK in 172ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32397)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-11 00:51:47 -0500
+Completed 200 OK in 180ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40155)
+
+
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-11 00:51:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-11 00:51:47 -0500
+  Parameters: {"id"=>"39683"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+Completed 200 OK in 177ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42188)
+
+
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-11 00:51:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"187617"}
+Completed 200 OK in 145ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 34626)
+
+
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-11 00:51:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+Completed 200 OK in 162ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 11507)
+
+
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-11 00:51:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 170ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 12664)
+
+
+Completed 200 OK in 159ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7480)
+
+
+Completed 200 OK in 175ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15955)
+
+
+Completed 200 OK in 127ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 6185)
+
+
+Completed 200 OK in 152ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 4499)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-11 00:51:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 109ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1066)
+
+
+Started GET "/users/2" for ::1 at 2019-08-11 00:51:51 -0500
+Started GET "/hotlists" for ::1 at 2019-08-11 00:51:51 -0500
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+Processing by HotlistsController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 816)
+
+
+Completed 200 OK in 152ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15833)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-11 00:51:54 -0500
+Processing by BggListsController#index as */*
+Completed 200 OK in 152ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14298)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-11 00:51:54 -0500
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-11 00:51:54 -0500
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-11 00:51:54 -0500
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-11 00:51:54 -0500
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-11 00:51:54 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193728"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"91080"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"159692"}
+  Parameters: {"id"=>"165872"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+Completed 200 OK in 131ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7702)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-11 00:51:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Completed 200 OK in 144ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16898)
+
+
+Completed 200 OK in 157ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 27499)
+
+
+Completed 200 OK in 161ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 36897)
+
+
+Completed 200 OK in 155ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32073)
+
+
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-11 00:51:55 -0500
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-11 00:51:55 -0500
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-11 00:51:55 -0500
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-11 00:51:55 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"67601"}
+  Parameters: {"id"=>"193949"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"182340"}
+Completed 200 OK in 195ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 9429)
+
+
+Completed 200 OK in 203ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 22679)
+
+
+Completed 200 OK in 211ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30739)
+
+
+Completed 200 OK in 200ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16436)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-11 00:51:55 -0500
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-11 00:51:55 -0500
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-11 00:51:55 -0500
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-11 00:51:55 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+  Parameters: {"id"=>"138161"}
+Completed 200 OK in 278ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 11139)
+
+
+Completed 200 OK in 285ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20215)
+
+
+Completed 200 OK in 290ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30817)
+
+
+Completed 200 OK in 544ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 104529)
+
+
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-11 00:51:55 -0500
+Completed 200 OK in 304ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 47366)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-11 00:51:55 -0500
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-11 00:51:55 -0500
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-11 00:51:55 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"143404"}
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-11 00:51:55 -0500
+  Parameters: {"id"=>"211940"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"102794"}
+  Parameters: {"id"=>"237182"}
+Completed 200 OK in 273ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 13896)
+
+
+Completed 200 OK in 277ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 19988)
+
+
+Completed 200 OK in 281ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 27257)
+
+
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-11 00:51:55 -0500
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-11 00:51:55 -0500
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-11 00:51:55 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 456ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40907)
+
+
+Completed 200 OK in 462ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 47230)
+
+
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-11 00:51:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-11 00:51:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Completed 200 OK in 198ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 22235)
+
+
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-11 00:51:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Completed 200 OK in 249ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32944)
+
+
+Completed 200 OK in 256ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 45917)
+
+
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-11 00:51:56 -0500
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-11 00:51:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+Completed 200 OK in 266ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43863)
+
+
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-11 00:51:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"229853"}
+Completed 200 OK in 295ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55148)
+
+
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-11 00:51:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Completed 200 OK in 281ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32824)
+
+
+Completed 200 OK in 343ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 64822)
+
+
+Completed 200 OK in 291ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 49852)
+
+
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-11 00:51:56 -0500
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-11 00:51:56 -0500
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-11 00:51:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208800"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"72321"}
+Completed 200 OK in 201ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 50060)
+
+
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-11 00:51:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+Completed 200 OK in 200ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 50438)
+
+
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-11 00:51:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Completed 200 OK in 176ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26360)
+
+
+Completed 200 OK in 183ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34336)
+
+
+Completed 200 OK in 191ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39302)
+
+
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-11 00:51:56 -0500
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-11 00:51:56 -0500
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-11 00:51:56 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+  Parameters: {"id"=>"22877"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Completed 200 OK in 171ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 41663)
+
+
+Completed 200 OK in 152ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 38476)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-11 00:51:56 -0500
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-11 00:51:56 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+  Parameters: {"id"=>"256960"}
+Completed 200 OK in 212ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 28147)
+
+
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-11 00:51:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"187617"}
+Completed 200 OK in 397ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34985)
+
+
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-11 00:51:57 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+Completed 200 OK in 442ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44719)
+
+
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-11 00:51:57 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 340ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26433)
+
+
+Completed 200 OK in 175ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20794)
+
+
+Completed 200 OK in 512ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42460)
+
+
+Completed 200 OK in 158ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 17825)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-11 00:51:57 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1068)
+
+
+Completed 200 OK in 1055ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 46512)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-11 00:51:59 -0500
+Started GET "/users/2" for ::1 at 2019-08-11 00:51:59 -0500
+Started GET "/hotlists" for ::1 at 2019-08-11 00:51:59 -0500
+Processing by BggListsController#index as */*
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+Processing by HotlistsController#index as */*
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 2.1ms | Allocations: 1507)
+
+
+Completed 200 OK in 183ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17399)
+
+
+Completed 200 OK in 186ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30440)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-11 00:51:59 -0500
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-11 00:51:59 -0500
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-11 00:51:59 -0500
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-11 00:51:59 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-11 00:51:59 -0500
+  Parameters: {"id"=>"91080"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+  Parameters: {"id"=>"193728"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"159692"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+Completed 200 OK in 134ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 10602)
+
+
+Completed 200 OK in 138ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 18069)
+
+
+Completed 200 OK in 140ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 22832)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-11 00:51:59 -0500
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-11 00:51:59 -0500
+Completed 200 OK in 150ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31328)
+
+
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-11 00:51:59 -0500
+Completed 200 OK in 152ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 37823)
+
+
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"67601"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-11 00:51:59 -0500
+  Parameters: {"id"=>"84419"}
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-11 00:51:59 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193949"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"182340"}
+Completed 200 OK in 255ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 10938)
+
+
+Completed 200 OK in 254ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16046)
+
+
+Completed 200 OK in 260ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 23796)
+
+
+Completed 200 OK in 268ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32573)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-11 00:52:00 -0500
+Completed 200 OK in 276ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40110)
+
+
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-11 00:52:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-11 00:52:00 -0500
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-11 00:52:00 -0500
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-11 00:52:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Completed 200 OK in 285ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 9445)
+
+
+Completed 200 OK in 291ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 18522)
+
+
+Completed 200 OK in 303ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33236)
+
+
+Completed 200 OK in 304ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 38815)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-11 00:52:00 -0500
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-11 00:52:00 -0500
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-11 00:52:00 -0500
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-11 00:52:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"102794"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"237182"}
+  Parameters: {"id"=>"143404"}
+Completed 200 OK in 341ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 52747)
+
+
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-11 00:52:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Completed 200 OK in 398ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5759)
+
+
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-11 00:52:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 619ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26706)
+
+
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+Completed 200 OK in 629ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33579)
+
+
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+Completed 200 OK in 255ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 27113)
+
+
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Completed 200 OK in 754ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 51717)
+
+
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Completed 200 OK in 154ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 28100)
+
+
+Completed 200 OK in 180ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 50867)
+
+
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-11 00:52:01 -0500
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+Completed 200 OK in 175ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44885)
+
+
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"229853"}
+Completed 200 OK in 134ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 46231)
+
+
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Completed 200 OK in 122ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30524)
+
+
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208800"}
+Completed 200 OK in 139ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42023)
+
+
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+Completed 200 OK in 140ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40500)
+
+
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"72321"}
+Completed 200 OK in 122ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41699)
+
+
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+Completed 200 OK in 178ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 37938)
+
+
+Completed 200 OK in 163ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30878)
+
+
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-11 00:52:01 -0500
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+Completed 200 OK in 131ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 29995)
+
+
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+Completed 200 OK in 1163ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 175959)
+
+
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Completed 200 OK in 315ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30059)
+
+
+Completed 200 OK in 289ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 27035)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-11 00:52:01 -0500
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-11 00:52:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+Completed 200 OK in 506ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 60539)
+
+
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-11 00:52:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"187617"}
+Completed 200 OK in 615ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39271)
+
+
+Completed 200 OK in 671ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 65252)
+
+
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-11 00:52:02 -0500
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-11 00:52:02 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+  Parameters: {"id"=>"214029"}
+Completed 200 OK in 667ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 37486)
+
+
+Completed 200 OK in 587ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 35073)
+
+
+Completed 200 OK in 688ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 53285)
+
+
+Completed 200 OK in 463ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25780)
+
+
+Completed 200 OK in 475ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33821)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-11 00:52:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 159ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1097)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-11 00:52:04 -0500
+Started GET "/users/2" for ::1 at 2019-08-11 00:52:04 -0500
+Started GET "/hotlists" for ::1 at 2019-08-11 00:52:04 -0500
+Processing by BggListsController#index as */*
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+Processing by HotlistsController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 1.8ms | Allocations: 921)
+
+
+Completed 200 OK in 157ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17177)
+
+
+Completed 200 OK in 159ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30199)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-11 00:52:04 -0500
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-11 00:52:04 -0500
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-11 00:52:04 -0500
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-11 00:52:04 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193728"}
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-11 00:52:04 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+  Parameters: {"id"=>"91080"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"159692"}
+Completed 200 OK in 122ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 13671)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Completed 200 OK in 120ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16863)
+
+
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+Completed 200 OK in 135ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26331)
+
+
+Completed 200 OK in 143ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33738)
+
+
+Completed 200 OK in 145ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39649)
+
+
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-11 00:52:05 -0500
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-11 00:52:05 -0500
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193949"}
+  Parameters: {"id"=>"182340"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"67601"}
+Completed 200 OK in 148ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33686)
+
+
+Completed 200 OK in 159ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 47381)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-11 00:52:05 -0500
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Completed 200 OK in 143ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26117)
+
+
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Completed 200 OK in 150ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 33054)
+
+
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Completed 200 OK in 174ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43610)
+
+
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Completed 200 OK in 147ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 19008)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+Completed 200 OK in 176ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 36278)
+
+
+Completed 200 OK in 151ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25949)
+
+
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-11 00:52:05 -0500
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"143404"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"102794"}
+Completed 200 OK in 117ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 6811)
+
+
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"237182"}
+Completed 200 OK in 132ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 19405)
+
+
+Completed 200 OK in 161ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43074)
+
+
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-11 00:52:05 -0500
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 390ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 94426)
+
+
+Completed 200 OK in 396ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 103416)
+
+
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-11 00:52:05 -0500
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+Completed 200 OK in 142ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 52801)
+
+
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Completed 200 OK in 143ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 40849)
+
+
+Completed 200 OK in 149ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 49020)
+
+
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-11 00:52:05 -0500
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Completed 200 OK in 146ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42387)
+
+
+Completed 200 OK in 151ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 51270)
+
+
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-11 00:52:05 -0500
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"229853"}
+Completed 200 OK in 214ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 35742)
+
+
+Completed 200 OK in 220ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44368)
+
+
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-11 00:52:05 -0500
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+  Parameters: {"id"=>"208800"}
+Completed 200 OK in 271ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 74510)
+
+
+Completed 200 OK in 186ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40938)
+
+
+Completed 200 OK in 192ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 50173)
+
+
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-11 00:52:05 -0500
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-11 00:52:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"72321"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+Completed 200 OK in 122ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43273)
+
+
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-11 00:52:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Completed 200 OK in 129ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 48664)
+
+
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-11 00:52:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+Completed 200 OK in 146ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 24360)
+
+
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-11 00:52:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+Completed 200 OK in 150ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30637)
+
+
+Completed 200 OK in 157ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40836)
+
+
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-11 00:52:06 -0500
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-11 00:52:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+Completed 200 OK in 112ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39646)
+
+
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-11 00:52:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+Completed 200 OK in 147ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 36182)
+
+
+Completed 200 OK in 138ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25483)
+
+
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-11 00:52:06 -0500
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-11 00:52:06 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+  Parameters: {"id"=>"187617"}
+Completed 200 OK in 148ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34128)
+
+
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-11 00:52:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 123ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34320)
+
+
+Completed 200 OK in 192ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26156)
+
+
+Completed 200 OK in 191ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26607)
+
+
+Completed 200 OK in 204ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40845)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-11 00:52:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 442ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 102079)
+
+
+Completed 200 OK in 126ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6002)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-11 00:52:08 -0500
+Started GET "/users/2" for ::1 at 2019-08-11 00:52:08 -0500
+Started GET "/hotlists" for ::1 at 2019-08-11 00:52:08 -0500
+Processing by BggListsController#index as */*
+Processing by HotlistsController#index as */*
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 1.2ms | Allocations: 790)
+
+
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16209)
+
+
+Completed 200 OK in 134ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30824)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-11 00:52:09 -0500
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-11 00:52:09 -0500
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-11 00:52:09 -0500
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-11 00:52:09 -0500
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-11 00:52:09 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193728"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+  Parameters: {"id"=>"91080"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 139ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 9457)
+
+
+Completed 200 OK in 144ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16343)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-11 00:52:09 -0500
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-11 00:52:09 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+  Parameters: {"id"=>"62227"}
+Completed 200 OK in 156ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25915)
+
+
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-11 00:52:09 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"67601"}
+Completed 200 OK in 172ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 35468)
+
+
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-11 00:52:09 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193949"}
+Completed 200 OK in 178ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42668)
+
+
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-11 00:52:09 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"182340"}
+Completed 200 OK in 227ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30131)
+
+
+Completed 200 OK in 226ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33620)
+
+
+Completed 200 OK in 207ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 23111)
+
+
+Completed 200 OK in 219ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 37711)
+
+
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-11 00:52:09 -0500
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-11 00:52:09 -0500
+Completed 200 OK in 243ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 56030)
+
+
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-11 00:52:09 -0500
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-11 00:52:09 -0500
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-11 00:52:09 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+  Parameters: {"id"=>"154203"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Completed 200 OK in 136ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 9905)
+
+
+Completed 200 OK in 142ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17031)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-11 00:52:09 -0500
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-11 00:52:09 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+Completed 200 OK in 162ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41116)
+
+
+Completed 200 OK in 167ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 48826)
+
+
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-11 00:52:09 -0500
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-11 00:52:09 -0500
+Processing by BggListsController#show as */*
+Completed 200 OK in 156ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32356)
+
+
+  Parameters: {"id"=>"143404"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"237182"}
+  Parameters: {"id"=>"102794"}
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-11 00:52:09 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Completed 200 OK in 229ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 13144)
+
+
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-11 00:52:09 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 263ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20666)
+
+
+Completed 200 OK in 277ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 35523)
+
+
+Completed 200 OK in 271ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29191)
+
+
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-11 00:52:09 -0500
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-11 00:52:09 -0500
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-11 00:52:09 -0500
+Completed 200 OK in 299ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 62061)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-11 00:52:09 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Completed 200 OK in 163ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40702)
+
+
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-11 00:52:10 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Completed 200 OK in 238ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 23465)
+
+
+Completed 200 OK in 243ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 32079)
+
+
+Completed 200 OK in 249ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41002)
+
+
+Completed 200 OK in 260ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55672)
+
+
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-11 00:52:10 -0500
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-11 00:52:10 -0500
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-11 00:52:10 -0500
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-11 00:52:10 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+  Parameters: {"id"=>"229853"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208800"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+Completed 200 OK in 208ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 56464)
+
+
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-11 00:52:10 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+Completed 200 OK in 183ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20914)
+
+
+Completed 200 OK in 187ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25507)
+
+
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-11 00:52:10 -0500
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-11 00:52:10 -0500
+Completed 200 OK in 192ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34260)
+
+
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-11 00:52:10 -0500
+  Parameters: {"id"=>"72321"}
+  Parameters: {"id"=>"162886"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Completed 200 OK in 252ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 47594)
+
+
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-11 00:52:10 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+Completed 200 OK in 489ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44202)
+
+
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-11 00:52:10 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+Completed 200 OK in 360ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 28964)
+
+
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-11 00:52:10 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Completed 200 OK in 490ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39242)
+
+
+Completed 200 OK in 435ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32378)
+
+
+Completed 200 OK in 496ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 50413)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-11 00:52:10 -0500
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-11 00:52:10 -0500
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-11 00:52:10 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"187617"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+Completed 200 OK in 176ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 42210)
+
+
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-11 00:52:10 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+Completed 200 OK in 218ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41516)
+
+
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-11 00:52:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 182ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26131)
+
+
+Completed 200 OK in 190ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 35436)
+
+
+Completed 200 OK in 194ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41747)
+
+
+Completed 200 OK in 217ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41073)
+
+
+Completed 200 OK in 226ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39887)
+
+
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-11 00:52:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"159692"}
+Completed 200 OK in 137ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 6333)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-11 00:52:22 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/undefined/listnames"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/hotlists" for ::1 at 2019-08-11 01:01:20 -0500
+Started GET "/users/2" for ::1 at 2019-08-11 01:01:20 -0500
+Processing by HotlistsController#index as */*
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.7ms | Allocations: 790)
+
+
+Completed 200 OK in 145ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16002)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:31:18 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 358ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14952)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:32:31 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 154ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14989)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:33:10 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 207ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15147)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:37:35 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 166ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15016)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:41:28 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 142ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15117)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-11 09:41:30 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/undefined/listnames"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/hotlists" for ::1 at 2019-08-11 09:41:49 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 148ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15145)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-11 09:41:59 -0500
+Processing by BggListsController#index as */*
+Completed 200 OK in 185ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14278)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-11 09:41:59 -0500
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-11 09:41:59 -0500
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-11 09:41:59 -0500
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-11 09:41:59 -0500
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-11 09:41:59 -0500
+  Parameters: {"id"=>"193728"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"91080"}
+  Parameters: {"id"=>"159692"}
+Completed 200 OK in 181ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20356)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-11 09:41:59 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Completed 200 OK in 223ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 18466)
+
+
+Completed 200 OK in 229ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 24264)
+
+
+Completed 200 OK in 233ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31010)
+
+
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-11 09:41:59 -0500
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-11 09:41:59 -0500
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-11 09:41:59 -0500
+Completed 200 OK in 241ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 38724)
+
+
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"67601"}
+  Parameters: {"id"=>"84419"}
+  Parameters: {"id"=>"193949"}
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-11 09:41:59 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"182340"}
+Completed 200 OK in 167ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39112)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-11 09:41:59 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Completed 200 OK in 200ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 17596)
+
+
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-11 09:41:59 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+Completed 200 OK in 241ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29097)
+
+
+Completed 200 OK in 250ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34316)
+
+
+Completed 200 OK in 263ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 41312)
+
+
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-11 09:42:00 -0500
+Completed 200 OK in 203ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43472)
+
+
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-11 09:42:00 -0500
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-11 09:42:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-11 09:42:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+Completed 200 OK in 225ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 11497)
+
+
+Completed 200 OK in 228ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16529)
+
+
+Completed 200 OK in 238ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26319)
+
+
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-11 09:42:00 -0500
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-11 09:42:00 -0500
+Completed 200 OK in 241ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33244)
+
+
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-11 09:42:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"102794"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"237182"}
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-11 09:42:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"143404"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Completed 200 OK in 140ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15000)
+
+
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-11 09:42:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 154ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 22528)
+
+
+Completed 200 OK in 497ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 106959)
+
+
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-11 09:42:00 -0500
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-11 09:42:00 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+  Parameters: {"id"=>"192455"}
+Completed 200 OK in 183ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39940)
+
+
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-11 09:42:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Completed 200 OK in 207ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 45891)
+
+
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-11 09:42:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Completed 200 OK in 184ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 24833)
+
+
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-11 09:42:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Completed 200 OK in 199ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39542)
+
+
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-11 09:42:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+Completed 200 OK in 186ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44776)
+
+
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-11 09:42:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"229853"}
+Completed 200 OK in 210ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 46896)
+
+
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-11 09:42:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Completed 200 OK in 329ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 45567)
+
+
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-11 09:42:00 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208800"}
+Completed 200 OK in 343ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42227)
+
+
+Completed 200 OK in 339ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39346)
+
+
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-11 09:42:01 -0500
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-11 09:42:01 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+  Parameters: {"id"=>"72321"}
+Completed 200 OK in 343ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42176)
+
+
+Completed 200 OK in 635ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 133400)
+
+
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-11 09:42:01 -0500
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-11 09:42:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Completed 200 OK in 164ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29620)
+
+
+Completed 200 OK in 169ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34399)
+
+
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-11 09:42:01 -0500
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-11 09:42:01 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+  Parameters: {"id"=>"22877"}
+Completed 200 OK in 163ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 27392)
+
+
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-11 09:42:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Completed 200 OK in 274ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 73779)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-11 09:42:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+Completed 200 OK in 141ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 18487)
+
+
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-11 09:42:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+Completed 200 OK in 287ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43999)
+
+
+Completed 200 OK in 174ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 28242)
+
+
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-11 09:42:01 -0500
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-11 09:42:01 -0500
+  Parameters: {"id"=>"187617"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+Completed 200 OK in 129ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20021)
+
+
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-11 09:42:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 142ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16939)
+
+
+Completed 200 OK in 144ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15886)
+
+
+Completed 200 OK in 145ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5587)
+
+
+Completed 200 OK in 148ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 4312)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-11 09:42:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1069)
+
+
+Completed 200 OK in 561ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 10593)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:42:11 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 153ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15052)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-11 09:43:17 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/undefined/listnames"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/hotlists" for ::1 at 2019-08-11 09:43:36 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 207ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15091)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:44:03 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 532ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14844)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:45:36 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 154ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15114)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:45:55 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 490ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14842)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:50:19 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 215ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14922)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:52:00 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 143ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15184)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:53:22 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 161ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15149)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-11 09:53:23 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/undefined/listnames"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/hotlists" for ::1 at 2019-08-11 09:53:31 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 149ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15092)
+
+
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-11 09:53:37 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/undefined/listnames"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/undefined/listnames" for ::1 at 2019-08-11 09:53:42 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/undefined/listnames"):
+  
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0.rc2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0.rc2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0.rc2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0.rc2) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/hotlists" for ::1 at 2019-08-11 09:53:42 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 336ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 15231)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:53:47 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 408ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14782)
+
+
+Started POST "/users/login" for ::1 at 2019-08-11 09:53:55 -0500
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Thomas", "password"=>"[FILTERED]", "user"=>{"username"=>"Thomas"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Thomas"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `login'
+Completed 200 OK in 249ms (Views: 0.2ms | ActiveRecord: 0.7ms | Allocations: 834)
+
+
+Started POST "/users/login" for ::1 at 2019-08-11 09:54:26 -0500
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Gollum", "password"=>"[FILTERED]", "user"=>{"username"=>"Gollum"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Gollum"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `login'
+Completed 200 OK in 251ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 728)
+
+
+Started GET "/users/6" for ::1 at 2019-08-11 09:55:11 -0500
+Processing by UsersController#show as */*
+  Parameters: {"user"=>{"username"=>"Gollum", "password"=>"[FILTERED]"}, "id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:66:in `set_user'
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 783)
+
+
+Started POST "/users/login" for ::1 at 2019-08-11 09:56:15 -0500
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"username"=>"Gollum", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Gollum"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `login'
+Completed 200 OK in 270ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 957)
+
+
+Started POST "/users/login" for ::1 at 2019-08-11 09:57:07 -0500
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Gollum", "password"=>"[FILTERED]", "user"=>{"username"=>"Gollum"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Gollum"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `login'
+Completed 200 OK in 249ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 729)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-11 09:57:48 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 163ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14918)
+
+
+Started POST "/users/login" for ::1 at 2019-08-11 09:57:58 -0500
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Gollum", "password"=>"[FILTERED]", "user"=>{"username"=>"Gollum"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Gollum"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `login'
+Completed 200 OK in 248ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 729)
+
+
+Started POST "/users/login" for ::1 at 2019-08-11 10:01:23 -0500
+Processing by UsersController#login as */*
+  Parameters: {"user"=>{"username"=>"Thomas", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Thomas"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `login'
+Completed 200 OK in 262ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 957)
+
+
+Started POST "/users/login" for ::1 at 2019-08-11 10:01:40 -0500
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Gollum", "password"=>"[FILTERED]", "user"=>{"username"=>"Gollum"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Gollum"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `login'
+Completed 200 OK in 250ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 728)
+
+
