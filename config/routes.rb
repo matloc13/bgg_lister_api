@@ -2,9 +2,12 @@ Rails.application.routes.draw do
   resources :users do
     collection do
       post '/login', to: 'users#login'
-        resources :listnames  do
-          resources :games
-        end
+      end
+    end
+
+    resources :users do
+      resources :listnames  do
+        resources :games
       end
     end
 
