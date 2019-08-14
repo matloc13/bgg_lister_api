@@ -1,24 +1,16 @@
+#BGG-lister
+https://bgg-lister-client.herokuapp.com/
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
+* Ruby ruby 2.5.5p157
+##### System dependencies
+- bcrypt, ~> 3.1.7
+- jwt
+- HTTParty
+- nokogiri
+- rack-cors
 * Configuration
+- API
 
-* Database creation
+- the db is used to fetch info from the third party api BoardgameGeek.  the gems nokogiri and HTTParty are need for this purpose.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- we then can save user generated lists to the db storing the bgg gameid for future lookups.

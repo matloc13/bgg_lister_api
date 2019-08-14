@@ -73636,3 +73636,2062 @@ Processing by BggListsController#show as */*
 Completed 200 OK in 114ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7217)
 
 
+Started GET "/bgg_lists/283355" for ::1 at 2019-08-14 17:43:16 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"283355"}
+Completed 200 OK in 127ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7439)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-14 17:54:44 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 113ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 15056)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-14 17:55:43 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 129ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14960)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-14 17:55:50 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 102ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15142)
+
+
+Started POST "/users/login" for ::1 at 2019-08-14 17:56:08 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"marvin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "marvin"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `login'
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.6ms | Allocations: 1182)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-14 17:56:17 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 102ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 15240)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-14 17:56:20 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 90ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 14997)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-14 17:56:43 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 94ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 15210)
+
+
+Started POST "/users/login" for ::1 at 2019-08-14 17:56:49 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"Goll", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Goll"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `login'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 682)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-14 17:56:54 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 100ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15034)
+
+
+Started POST "/users/login" for ::1 at 2019-08-14 17:57:06 -0500
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"Gollum", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Gollum"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7:in `login'
+Completed 200 OK in 277ms (Views: 0.5ms | ActiveRecord: 0.3ms | Allocations: 3818)
+
+
+Started GET "/hotlists" for ::1 at 2019-08-14 17:57:16 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 109ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14813)
+
+
+Started GET "/bgg_lists/193738" for ::1 at 2019-08-14 17:59:53 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193738"}
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 9788)
+
+
+Started GET "/bgg_lists/233078" for ::1 at 2019-08-14 18:00:21 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"233078"}
+Completed 200 OK in 101ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 10203)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-14 18:00:45 -0500
+Processing by BggListsController#index as */*
+Completed 200 OK in 124ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14412)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-14 18:00:46 -0500
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-14 18:00:46 -0500
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193728"}
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-14 18:00:46 -0500
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"91080"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"159692"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+Completed 200 OK in 135ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20142)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Completed 200 OK in 128ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25214)
+
+
+Completed 200 OK in 122ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29002)
+
+
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-14 18:00:46 -0500
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"67601"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+Completed 200 OK in 122ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 32874)
+
+
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-14 18:00:46 -0500
+Completed 200 OK in 132ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 39315)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193949"}
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"182340"}
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39871)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Completed 200 OK in 112ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31204)
+
+
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+Completed 200 OK in 134ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39882)
+
+
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Completed 200 OK in 108ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33010)
+
+
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Completed 200 OK in 145ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44091)
+
+
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Completed 200 OK in 123ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 46224)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+Completed 200 OK in 118ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 49282)
+
+
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"143404"}
+Completed 200 OK in 131ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 50077)
+
+
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-14 18:00:46 -0500
+Completed 200 OK in 129ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 51621)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"102794"}
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"237182"}
+Completed 200 OK in 118ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 51347)
+
+
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 46421)
+
+
+Completed 200 OK in 106ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 41487)
+
+
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-14 18:00:46 -0500
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 126ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32264)
+
+
+Completed 200 OK in 138ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44420)
+
+
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-14 18:00:46 -0500
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Completed 200 OK in 137ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42951)
+
+
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Completed 200 OK in 142ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 37985)
+
+
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-14 18:00:46 -0500
+Completed 200 OK in 156ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 52583)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+Completed 200 OK in 117ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43788)
+
+
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"229853"}
+Completed 200 OK in 136ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55790)
+
+
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 54980)
+
+
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-14 18:00:46 -0500
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208800"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41586)
+
+
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+Completed 200 OK in 114ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 51963)
+
+
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"72321"}
+Completed 200 OK in 108ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 50863)
+
+
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-14 18:00:46 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+Completed 200 OK in 113ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43364)
+
+
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-14 18:00:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Completed 200 OK in 117ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 47445)
+
+
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-14 18:00:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+Completed 200 OK in 118ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 42587)
+
+
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-14 18:00:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33916)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-14 18:00:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+Completed 200 OK in 97ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25319)
+
+
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-14 18:00:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+Completed 200 OK in 103ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16335)
+
+
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-14 18:00:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"187617"}
+Completed 200 OK in 101ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 13775)
+
+
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-14 18:00:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 10540)
+
+
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-14 18:00:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 10211)
+
+
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-14 18:00:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+Completed 200 OK in 103ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 10547)
+
+
+Completed 200 OK in 107ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7170)
+
+
+Completed 200 OK in 113ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 9952)
+
+
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 5574)
+
+
+Completed 200 OK in 109ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 4905)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-14 18:00:47 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 96ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1077)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-14 18:00:55 -0500
+Started GET "/hotlists" for ::1 at 2019-08-14 18:00:55 -0500
+Processing by HotlistsController#index as */*
+Processing by BggListsController#index as */*
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16192)
+
+
+Completed 200 OK in 125ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29721)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-14 18:00:56 -0500
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-14 18:00:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193728"}
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-14 18:00:56 -0500
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-14 18:00:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"91080"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-14 18:00:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"159692"}
+Completed 200 OK in 96ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 13261)
+
+
+Completed 200 OK in 114ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 21330)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-14 18:00:56 -0500
+Completed 200 OK in 116ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 25211)
+
+
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-14 18:00:56 -0500
+Completed 200 OK in 128ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31550)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+Completed 200 OK in 140ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39620)
+
+
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-14 18:00:56 -0500
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-14 18:00:56 -0500
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-14 18:00:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"67601"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193949"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"182340"}
+Completed 200 OK in 123ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 12622)
+
+
+Completed 200 OK in 122ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 18691)
+
+
+Completed 200 OK in 126ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 24613)
+
+
+Completed 200 OK in 129ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 30417)
+
+
+Completed 200 OK in 159ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41680)
+
+
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-14 18:00:56 -0500
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-14 18:00:56 -0500
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-14 18:00:56 -0500
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-14 18:00:56 -0500
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-14 18:00:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+  Parameters: {"id"=>"211940"}
+Completed 200 OK in 95ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 12163)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-14 18:00:56 -0500
+Completed 200 OK in 112ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 22465)
+
+
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29725)
+
+
+Completed 200 OK in 131ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 38241)
+
+
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-14 18:00:56 -0500
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-14 18:00:56 -0500
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-14 18:00:56 -0500
+Processing by BggListsController#show as */*
+Completed 200 OK in 149ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 48994)
+
+
+  Parameters: {"id"=>"143404"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+  Parameters: {"id"=>"237182"}
+  Parameters: {"id"=>"102794"}
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-14 18:00:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Completed 200 OK in 95ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 10964)
+
+
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-14 18:00:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 114ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20544)
+
+
+Completed 200 OK in 116ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 26593)
+
+
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-14 18:00:56 -0500
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-14 18:00:56 -0500
+Completed 200 OK in 126ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 37185)
+
+
+Completed 200 OK in 124ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40646)
+
+
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-14 18:00:56 -0500
+  Parameters: {"id"=>"192455"}
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-14 18:00:56 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Completed 200 OK in 111ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44005)
+
+
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-14 18:00:57 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Completed 200 OK in 96ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 28402)
+
+
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-14 18:00:57 -0500
+Completed 200 OK in 107ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43139)
+
+
+Completed 200 OK in 113ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 45673)
+
+
+Completed 200 OK in 123ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 54324)
+
+
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-14 18:00:57 -0500
+  Parameters: {"id"=>"84876"}
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-14 18:00:57 -0500
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-14 18:00:57 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"229853"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208800"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Completed 200 OK in 111ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 55849)
+
+
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-14 18:00:57 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25075)
+
+
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31379)
+
+
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-14 18:00:57 -0500
+Completed 200 OK in 125ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44702)
+
+
+Completed 200 OK in 123ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 42756)
+
+
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-14 18:00:57 -0500
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-14 18:00:57 -0500
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-14 18:00:57 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+Completed 200 OK in 92ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43374)
+
+
+  Parameters: {"id"=>"179275"}
+  Parameters: {"id"=>"72321"}
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-14 18:00:57 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+Completed 200 OK in 123ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 14052)
+
+
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16427)
+
+
+Completed 200 OK in 130ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20436)
+
+
+Completed 200 OK in 146ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 30883)
+
+
+Completed 200 OK in 158ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39325)
+
+
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-14 18:00:57 -0500
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-14 18:00:57 -0500
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-14 18:00:57 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+  Parameters: {"id"=>"220588"}
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-14 18:00:57 -0500
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-14 18:00:57 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"187617"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+Completed 200 OK in 98ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 2229)
+
+
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-14 18:00:57 -0500
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 4975)
+
+
+Completed 200 OK in 117ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5612)
+
+
+Completed 200 OK in 123ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 7882)
+
+
+Completed 200 OK in 134ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14518)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 89ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1064)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-14 18:00:57 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 106ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1075)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-14 18:01:01 -0500
+Processing by BggListsController#index as */*
+Started GET "/hotlists" for ::1 at 2019-08-14 18:01:01 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 96ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15193)
+
+
+Completed 200 OK in 144ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30634)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-14 18:01:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193728"}
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-14 18:01:01 -0500
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-14 18:01:01 -0500
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-14 18:01:01 -0500
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-14 18:01:01 -0500
+  Parameters: {"id"=>"91080"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+  Parameters: {"id"=>"159692"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+Completed 200 OK in 99ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 14338)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-14 18:01:01 -0500
+Completed 200 OK in 102ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20022)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-14 18:01:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+Completed 200 OK in 118ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26123)
+
+
+Completed 200 OK in 133ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33171)
+
+
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-14 18:01:01 -0500
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-14 18:01:01 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"67601"}
+  Parameters: {"id"=>"193949"}
+Completed 200 OK in 175ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 41448)
+
+
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-14 18:01:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"182340"}
+Completed 200 OK in 115ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31041)
+
+
+Completed 200 OK in 134ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39696)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-14 18:01:01 -0500
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-14 18:01:01 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+  Parameters: {"id"=>"154203"}
+Completed 200 OK in 133ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 31368)
+
+
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-14 18:01:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Completed 200 OK in 162ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33019)
+
+
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-14 18:01:01 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 18293)
+
+
+Completed 200 OK in 149ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34817)
+
+
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-14 18:01:02 -0500
+Completed 200 OK in 165ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 46025)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"143404"}
+Completed 200 OK in 159ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 42423)
+
+
+Completed 200 OK in 380ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 92532)
+
+
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-14 18:01:02 -0500
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"237182"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"102794"}
+Completed 200 OK in 129ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29251)
+
+
+Completed 200 OK in 144ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 35017)
+
+
+Completed 200 OK in 145ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 39113)
+
+
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-14 18:01:02 -0500
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220308"}
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Completed 200 OK in 138ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 33063)
+
+
+Completed 200 OK in 151ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42681)
+
+
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-14 18:01:02 -0500
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Completed 200 OK in 137ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 38264)
+
+
+Completed 200 OK in 137ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42334)
+
+
+Completed 200 OK in 154ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 51891)
+
+
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-14 18:01:02 -0500
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-14 18:01:02 -0500
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+  Parameters: {"id"=>"70512"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+Completed 200 OK in 108ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42309)
+
+
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 52700)
+
+
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-14 18:01:02 -0500
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"229853"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Completed 200 OK in 98ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33266)
+
+
+Completed 200 OK in 103ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42822)
+
+
+Completed 200 OK in 114ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 49808)
+
+
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-14 18:01:02 -0500
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"72321"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+  Parameters: {"id"=>"208800"}
+Completed 200 OK in 93ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39760)
+
+
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-14 18:01:02 -0500
+Completed 200 OK in 104ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 50411)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Completed 200 OK in 103ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 30410)
+
+
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+Completed 200 OK in 127ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20748)
+
+
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-14 18:01:02 -0500
+Completed 200 OK in 141ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 27850)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Completed 200 OK in 103ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 26806)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+Completed 200 OK in 90ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15045)
+
+
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+Completed 200 OK in 113ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 24513)
+
+
+Completed 200 OK in 113ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25382)
+
+
+Completed 200 OK in 344ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 88533)
+
+
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-14 18:01:02 -0500
+Completed 200 OK in 354ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 92407)
+
+
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-14 18:01:02 -0500
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-14 18:01:02 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+  Parameters: {"id"=>"187617"}
+Completed 200 OK in 134ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 36756)
+
+
+Completed 200 OK in 98ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 10787)
+
+
+Completed 200 OK in 96ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 10676)
+
+
+Completed 200 OK in 107ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 11326)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-14 18:01:03 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 96ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1039)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-14 18:01:04 -0500
+Processing by BggListsController#index as */*
+Started GET "/hotlists" for ::1 at 2019-08-14 18:01:04 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 113ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30331)
+
+
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29961)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193728"}
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-14 18:01:05 -0500
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-14 18:01:05 -0500
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"91080"}
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"159692"}
+Completed 200 OK in 100ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 14397)
+
+
+Completed 200 OK in 101ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 19561)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-14 18:01:05 -0500
+Completed 200 OK in 107ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 25531)
+
+
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Completed 200 OK in 114ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32605)
+
+
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-14 18:01:05 -0500
+Completed 200 OK in 122ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 38743)
+
+
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-14 18:01:05 -0500
+  Parameters: {"id"=>"67601"}
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193949"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"182340"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+Completed 200 OK in 108ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 13033)
+
+
+Completed 200 OK in 112ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17821)
+
+
+Completed 200 OK in 125ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 24462)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-14 18:01:05 -0500
+Completed 200 OK in 137ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 31827)
+
+
+Completed 200 OK in 141ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 38022)
+
+
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-14 18:01:05 -0500
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-14 18:01:05 -0500
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+Completed 200 OK in 99ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 12905)
+
+
+Completed 200 OK in 120ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 24173)
+
+
+Completed 200 OK in 129ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31029)
+
+
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-14 18:01:05 -0500
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"102794"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"143404"}
+Completed 200 OK in 142ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 46737)
+
+
+Completed 200 OK in 145ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40103)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-14 18:01:05 -0500
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-14 18:01:05 -0500
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"237182"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Completed 200 OK in 99ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 10553)
+
+
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-14 18:01:05 -0500
+Completed 200 OK in 118ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 22605)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220308"}
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-14 18:01:05 -0500
+Completed 200 OK in 109ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 27808)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+Completed 200 OK in 135ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 36742)
+
+
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Completed 200 OK in 123ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 18073)
+
+
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Completed 200 OK in 116ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 22551)
+
+
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-14 18:01:05 -0500
+Completed 200 OK in 167ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 50783)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+Completed 200 OK in 184ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 57358)
+
+
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-14 18:01:05 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"229853"}
+Completed 200 OK in 324ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 93257)
+
+
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-14 18:01:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 52176)
+
+
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-14 18:01:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208800"}
+Completed 200 OK in 101ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41637)
+
+
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-14 18:01:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+Completed 200 OK in 120ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 51885)
+
+
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-14 18:01:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"72321"}
+Completed 200 OK in 134ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 47036)
+
+
+Completed 200 OK in 112ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 49372)
+
+
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-14 18:01:06 -0500
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-14 18:01:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Completed 200 OK in 106ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 38290)
+
+
+Completed 200 OK in 134ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 52360)
+
+
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-14 18:01:06 -0500
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-14 18:01:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+Completed 200 OK in 115ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40971)
+
+
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-14 18:01:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Completed 200 OK in 115ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 28911)
+
+
+Completed 200 OK in 133ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39651)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-14 18:01:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-14 18:01:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+Completed 200 OK in 144ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 35895)
+
+
+Completed 200 OK in 159ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43199)
+
+
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-14 18:01:06 -0500
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-14 18:01:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"187617"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+Completed 200 OK in 109ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 23483)
+
+
+Completed 200 OK in 120ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30891)
+
+
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-14 18:01:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 101ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17270)
+
+
+Completed 200 OK in 118ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 26863)
+
+
+Completed 200 OK in 102ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 10613)
+
+
+Completed 200 OK in 392ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 71562)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-14 18:01:06 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 92ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1047)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#index as */*
+Started GET "/hotlists" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 110ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 27718)
+
+
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29408)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-14 18:01:11 -0500
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193728"}
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"91080"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"159692"}
+Completed 200 OK in 96ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 13853)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Completed 200 OK in 112ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 22371)
+
+
+Completed 200 OK in 119ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26431)
+
+
+Completed 200 OK in 122ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31541)
+
+
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-14 18:01:11 -0500
+Completed 200 OK in 141ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40507)
+
+
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-14 18:01:11 -0500
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"67601"}
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+  Parameters: {"id"=>"182340"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193949"}
+Completed 200 OK in 115ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 39334)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17307)
+
+
+Completed 200 OK in 124ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25744)
+
+
+Completed 200 OK in 129ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 37956)
+
+
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30862)
+
+
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-14 18:01:11 -0500
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-14 18:01:11 -0500
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-14 18:01:11 -0500
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Completed 200 OK in 113ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 45760)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 22827)
+
+
+Completed 200 OK in 124ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32307)
+
+
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-14 18:01:11 -0500
+Completed 200 OK in 132ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 40024)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"143404"}
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-14 18:01:11 -0500
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-14 18:01:11 -0500
+Completed 200 OK in 156ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 52460)
+
+
+Completed 200 OK in 116ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43220)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"102794"}
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-14 18:01:11 -0500
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-14 18:01:11 -0500
+  Parameters: {"id"=>"237182"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 98ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26735)
+
+
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+Completed 200 OK in 96ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 22110)
+
+
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+Completed 200 OK in 128ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 30971)
+
+
+Completed 200 OK in 142ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39019)
+
+
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-14 18:01:11 -0500
+Completed 200 OK in 152ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43811)
+
+
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-14 18:01:11 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Completed 200 OK in 146ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 53930)
+
+
+Completed 200 OK in 113ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 46130)
+
+
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-14 18:01:12 -0500
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-14 18:01:12 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"229853"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+Completed 200 OK in 117ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39737)
+
+
+Completed 200 OK in 117ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 45675)
+
+
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-14 18:01:12 -0500
+Completed 200 OK in 139ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 55045)
+
+
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-14 18:01:12 -0500
+  Parameters: {"id"=>"208800"}
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-14 18:01:12 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+Completed 200 OK in 114ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 42555)
+
+
+Completed 200 OK in 123ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 50930)
+
+
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-14 18:01:12 -0500
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-14 18:01:12 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"72321"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+Completed 200 OK in 108ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 29244)
+
+
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-14 18:01:12 -0500
+Completed 200 OK in 117ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32157)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-14 18:01:12 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+Completed 200 OK in 146ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 45009)
+
+
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-14 18:01:12 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+Completed 200 OK in 106ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 30517)
+
+
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-14 18:01:12 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Completed 200 OK in 129ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 41858)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-14 18:01:12 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+Completed 200 OK in 101ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 37940)
+
+
+Completed 200 OK in 118ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 45687)
+
+
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-14 18:01:12 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-14 18:01:12 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"187617"}
+Completed 200 OK in 108ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42084)
+
+
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-14 18:01:12 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+Completed 200 OK in 150ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 44006)
+
+
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-14 18:01:12 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 267ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 28197)
+
+
+Completed 200 OK in 272ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34887)
+
+
+Completed 200 OK in 211ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25917)
+
+
+Completed 200 OK in 437ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 66315)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-14 18:01:12 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 115ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 6691)
+
+
+Completed 200 OK in 666ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 58420)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-14 18:10:40 -0500
+Started GET "/hotlists" for ::1 at 2019-08-14 18:10:40 -0500
+Processing by BggListsController#index as */*
+Processing by HotlistsController#index as */*
+Completed 200 OK in 89ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15086)
+
+
+Completed 200 OK in 113ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29276)
+
+
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-14 18:10:42 -0500
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"91080"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193728"}
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-14 18:10:42 -0500
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-14 18:10:42 -0500
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"159692"}
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 18612)
+
+
+Completed 200 OK in 131ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 27227)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-14 18:10:42 -0500
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+Completed 200 OK in 123ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 28306)
+
+
+Completed 200 OK in 121ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 31526)
+
+
+Completed 200 OK in 144ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41733)
+
+
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-14 18:10:42 -0500
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-14 18:10:42 -0500
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"182340"}
+  Parameters: {"id"=>"67601"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193949"}
+Completed 200 OK in 107ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31889)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Completed 200 OK in 127ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39910)
+
+
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+Completed 200 OK in 115ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25659)
+
+
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-14 18:10:42 -0500
+Completed 200 OK in 122ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 33226)
+
+
+Completed 200 OK in 132ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41021)
+
+
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-14 18:10:42 -0500
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44965)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-14 18:10:42 -0500
+  Parameters: {"id"=>"132531"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+Completed 200 OK in 143ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 48606)
+
+
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"143404"}
+Completed 200 OK in 117ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 19464)
+
+
+Completed 200 OK in 126ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29082)
+
+
+Completed 200 OK in 132ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 36325)
+
+
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-14 18:10:42 -0500
+Completed 200 OK in 167ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 57298)
+
+
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-14 18:10:42 -0500
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-14 18:10:42 -0500
+  Parameters: {"id"=>"102794"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"237182"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 118ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42423)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"121921"}
+Completed 200 OK in 103ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16636)
+
+
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+Completed 200 OK in 118ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 31214)
+
+
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Completed 200 OK in 124ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 37191)
+
+
+Completed 200 OK in 137ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 50653)
+
+
+Completed 200 OK in 138ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 52687)
+
+
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-14 18:10:42 -0500
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-14 18:10:42 -0500
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Completed 200 OK in 101ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43974)
+
+
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"229853"}
+Completed 200 OK in 130ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 66329)
+
+
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-14 18:10:42 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33179)
+
+
+Completed 200 OK in 115ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40271)
+
+
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-14 18:10:43 -0500
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-14 18:10:43 -0500
+Completed 200 OK in 127ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 51384)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208800"}
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-14 18:10:43 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"72321"}
+Completed 200 OK in 89ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40298)
+
+
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-14 18:10:43 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"162886"}
+Completed 200 OK in 122ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 61774)
+
+
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-14 18:10:43 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Completed 200 OK in 90ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 29749)
+
+
+Completed 200 OK in 98ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 35123)
+
+
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-14 18:10:43 -0500
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-14 18:10:43 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+  Parameters: {"id"=>"1678"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41636)
+
+
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-14 18:10:43 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Completed 200 OK in 94ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41988)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-14 18:10:43 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+Completed 200 OK in 99ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40189)
+
+
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-14 18:10:43 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+Completed 200 OK in 92ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30210)
+
+
+Completed 200 OK in 94ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 36778)
+
+
+Completed 200 OK in 102ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 43960)
+
+
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-14 18:10:43 -0500
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-14 18:10:43 -0500
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-14 18:10:43 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"187617"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"214029"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 92ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41327)
+
+
+Completed 200 OK in 108ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40414)
+
+
+Completed 200 OK in 99ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25695)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-14 18:10:43 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 324ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34588)
+
+
+Completed 200 OK in 335ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42001)
+
+
+Completed 200 OK in 377ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 22546)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-14 18:12:31 -0500
+Started GET "/hotlists" for ::1 at 2019-08-14 18:12:31 -0500
+Processing by BggListsController#index as */*
+Processing by HotlistsController#index as */*
+Completed 200 OK in 132ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16174)
+
+
+Completed 200 OK in 154ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29758)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-14 18:12:33 -0500
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-14 18:12:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193728"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"91080"}
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-14 18:12:33 -0500
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-14 18:12:33 -0500
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-14 18:12:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"165872"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"159692"}
+Completed 200 OK in 112ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15135)
+
+
+Completed 200 OK in 111ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 19354)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-14 18:12:33 -0500
+Completed 200 OK in 115ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26059)
+
+
+Completed 200 OK in 118ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30173)
+
+
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-14 18:12:33 -0500
+Completed 200 OK in 141ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40502)
+
+
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-14 18:12:33 -0500
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-14 18:12:33 -0500
+  Parameters: {"id"=>"62227"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"67601"}
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-14 18:12:33 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84419"}
+  Parameters: {"id"=>"193949"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"182340"}
+Completed 200 OK in 94ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 8170)
+
+
+Completed 200 OK in 117ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 19412)
+
+
+Completed 200 OK in 122ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 25336)
+
+
+Completed 200 OK in 131ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30772)
+
+
+Completed 200 OK in 134ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 37299)
+
+
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-14 18:12:33 -0500
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-14 18:12:33 -0500
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-14 18:12:33 -0500
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-14 18:12:33 -0500
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-14 18:12:33 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+  Parameters: {"id"=>"138161"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+  Parameters: {"id"=>"35677"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Completed 200 OK in 97ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 11181)
+
+
+Completed 200 OK in 108ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 21255)
+
+
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-14 18:12:33 -0500
+Completed 200 OK in 104ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26587)
+
+
+Completed 200 OK in 118ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 36088)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"72321"}
+Completed 200 OK in 133ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 47870)
+
+
+Completed 200 OK in 106ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 18512)
+
+
+Started GET "/bgg_lists" for ::1 at 2019-08-14 18:12:35 -0500
+Processing by BggListsController#index as */*
+Started GET "/hotlists" for ::1 at 2019-08-14 18:12:35 -0500
+Processing by HotlistsController#index as */*
+Completed 200 OK in 99ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 15527)
+
+
+Completed 200 OK in 127ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 30799)
+
+
+Started GET "/bgg_lists/193728" for ::1 at 2019-08-14 18:12:36 -0500
+Started GET "/bgg_lists/91080" for ::1 at 2019-08-14 18:12:36 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193728"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"91080"}
+Started GET "/bgg_lists/180199" for ::1 at 2019-08-14 18:12:36 -0500
+Started GET "/bgg_lists/165872" for ::1 at 2019-08-14 18:12:36 -0500
+Started GET "/bgg_lists/159692" for ::1 at 2019-08-14 18:12:36 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"180199"}
+  Parameters: {"id"=>"165872"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"159692"}
+Completed 200 OK in 86ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 13663)
+
+
+Started GET "/bgg_lists/62227" for ::1 at 2019-08-14 18:12:36 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"62227"}
+Completed 200 OK in 91ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 21402)
+
+
+Started GET "/bgg_lists/84419" for ::1 at 2019-08-14 18:12:36 -0500
+Completed 200 OK in 92ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 26329)
+
+
+Processing by BggListsController#show as */*
+Completed 200 OK in 97ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32032)
+
+
+Started GET "/bgg_lists/67601" for ::1 at 2019-08-14 18:12:36 -0500
+Completed 200 OK in 102ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 38903)
+
+
+  Parameters: {"id"=>"84419"}
+Started GET "/bgg_lists/193949" for ::1 at 2019-08-14 18:12:36 -0500
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/182340" for ::1 at 2019-08-14 18:12:36 -0500
+  Parameters: {"id"=>"67601"}
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"193949"}
+  Parameters: {"id"=>"182340"}
+Completed 200 OK in 96ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40367)
+
+
+Started GET "/bgg_lists/154203" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"154203"}
+Completed 200 OK in 95ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 21602)
+
+
+Completed 200 OK in 95ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25243)
+
+
+Completed 200 OK in 96ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30580)
+
+
+Started GET "/bgg_lists/138161" for ::1 at 2019-08-14 18:12:37 -0500
+Started GET "/bgg_lists/192457" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"138161"}
+Started GET "/bgg_lists/132531" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192457"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"132531"}
+Completed 200 OK in 142ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42669)
+
+
+Started GET "/bgg_lists/211940" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"211940"}
+Completed 200 OK in 97ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 45629)
+
+
+Started GET "/bgg_lists/71836" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"71836"}
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33016)
+
+
+Completed 200 OK in 132ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 41761)
+
+
+Started GET "/bgg_lists/143404" for ::1 at 2019-08-14 18:12:37 -0500
+Completed 200 OK in 141ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 49861)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"143404"}
+Started GET "/bgg_lists/102794" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"102794"}
+Started GET "/bgg_lists/237182" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"237182"}
+Completed 200 OK in 118ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 50359)
+
+
+Started GET "/bgg_lists/208801" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208801"}
+Completed 200 OK in 143ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 45719)
+
+
+Started GET "/bgg_lists/220308" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220308"}
+Completed 200 OK in 98ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 25464)
+
+
+Completed 200 OK in 102ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 35059)
+
+
+Started GET "/bgg_lists/121921" for ::1 at 2019-08-14 18:12:37 -0500
+Started GET "/bgg_lists/192455" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"192455"}
+  Parameters: {"id"=>"121921"}
+Completed 200 OK in 103ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 38246)
+
+
+Completed 200 OK in 101ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 41748)
+
+
+Started GET "/bgg_lists/169786" for ::1 at 2019-08-14 18:12:37 -0500
+Started GET "/bgg_lists/70512" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"169786"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"70512"}
+Completed 200 OK in 96ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 44860)
+
+
+Started GET "/bgg_lists/140620" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"140620"}
+Completed 200 OK in 104ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 22738)
+
+
+Started GET "/bgg_lists/84876" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"84876"}
+Completed 200 OK in 118ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30606)
+
+
+Started GET "/bgg_lists/229853" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"229853"}
+Completed 200 OK in 100ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29930)
+
+
+Started GET "/bgg_lists/35677" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"35677"}
+Completed 200 OK in 89ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 29041)
+
+
+Started GET "/bgg_lists/208800" for ::1 at 2019-08-14 18:12:37 -0500
+Completed 200 OK in 84ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30447)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"208800"}
+Started GET "/bgg_lists/255640" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"255640"}
+Completed 200 OK in 82ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 32167)
+
+
+Started GET "/bgg_lists/72321" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"72321"}
+Completed 200 OK in 85ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 17366)
+
+
+Completed 200 OK in 324ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 107328)
+
+
+Completed 200 OK in 94ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 30614)
+
+
+Completed 200 OK in 336ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 124746)
+
+
+Started GET "/bgg_lists/162886" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/179275" for ::1 at 2019-08-14 18:12:37 -0500
+  Parameters: {"id"=>"162886"}
+Started GET "/bgg_lists/1678" for ::1 at 2019-08-14 18:12:37 -0500
+Started GET "/bgg_lists/22877" for ::1 at 2019-08-14 18:12:37 -0500
+Completed 200 OK in 102ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 42801)
+
+
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"1678"}
+Started GET "/bgg_lists/39683" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"179275"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"39683"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"22877"}
+Completed 200 OK in 109ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 22274)
+
+
+Completed 200 OK in 98ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20009)
+
+
+Completed 200 OK in 101ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 27172)
+
+
+Completed 200 OK in 109ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 34925)
+
+
+Started GET "/bgg_lists/220588" for ::1 at 2019-08-14 18:12:37 -0500
+Completed 200 OK in 124ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 40143)
+
+
+Started GET "/bgg_lists/256960" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"220588"}
+Started GET "/bgg_lists/187617" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"256960"}
+Started GET "/bgg_lists/214029" for ::1 at 2019-08-14 18:12:37 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"187617"}
+Processing by BggListsController#show as */*
+Started GET "/bgg_lists/247763" for ::1 at 2019-08-14 18:12:37 -0500
+  Parameters: {"id"=>"214029"}
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"247763"}
+Completed 200 OK in 85ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 12595)
+
+
+Completed 200 OK in 97ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 20298)
+
+
+Completed 200 OK in 95ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 24932)
+
+
+Completed 200 OK in 105ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 33995)
+
+
+Completed 200 OK in 103ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 39831)
+
+
+Started GET "/bgg_lists/11825" for ::1 at 2019-08-14 18:12:38 -0500
+Processing by BggListsController#show as */*
+  Parameters: {"id"=>"11825"}
+Completed 200 OK in 89ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 6871)
+
+
