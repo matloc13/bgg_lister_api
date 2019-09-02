@@ -17,6 +17,7 @@ class GamesController < ApplicationController
   def create
     @game = Game.new(game_params)
     @game.listname_id = params[:listname_id]
+    # @game = params[:listname_id][:game]
 
     if @game.save
       render json: @game, status: :created
@@ -24,7 +25,7 @@ class GamesController < ApplicationController
       render json: @game.errors, status: :unprocessable_entity
     end
   end
-
+# seed_track = params[:playlist][:seed_track]
   # PATCH/PUT /games/1
   def update
     if @game.update(game_params)

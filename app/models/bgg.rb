@@ -9,8 +9,7 @@ class Bgg
   end
 
   def get_bgg_list
-    response = HTTParty.get('https://www.boardgamegeek.com/xmlapi/geeklist/252877')
+    response = HTTParty.get('https://www.boardgamegeek.com/xmlapi2/geeklist/252877')
   end
-
 
 end
