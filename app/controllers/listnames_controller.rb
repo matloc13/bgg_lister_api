@@ -15,11 +15,26 @@ class ListnamesController < ApplicationController
 
   # POST /listnames
   def create
+    puts :listname
     @listname = Listname.new(listname_params)
     @listname.user_id = params[:user_id]
+    @game = params[:listname][:game]
+
+    @game_params = {
+      name: @game[:name],
+      img: @game[:img],
+      bggid: @game[:bggid],
+      listname_id: @listname[:id]
+
+    }
+
+    puts @game_params
 
     if @listname.save
       render json: @listname, status: :created
+
+      @game_params[:listname_id] = @listname[:id]
+      Game.create!(@game_params)
     else
       render json: @listname.errors, status: :unprocessable_entity
     end
@@ -47,6 +62,6 @@ class ListnamesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def listname_params
-      params.require(:listname).permit(:title)
+      params.require(:listname).permit( :id, :user_id, :title, :game, :listname)
     end
 end

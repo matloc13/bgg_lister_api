@@ -13,7 +13,6 @@ Rails.application.routes.draw do
 
 
   resources :hotlists
-  # resources :solos
   resources :bgg_lists
 
 
