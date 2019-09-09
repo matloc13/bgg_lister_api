@@ -1,3 +1,3 @@
-class ListnameSerializer < ActiveModel::Serializer
+class ListnameSerializer < ActiveModel::Serializers
   attributes :id,:id, :user_id, :title
 end
