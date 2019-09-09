@@ -10,7 +10,7 @@ class ListnamesController < ApplicationController
 
   # GET /listnames/1
   def show
-    render json: @listname
+    render json: @listname.to_json(include: :games)
   end
 
   # POST /listnames
@@ -18,17 +18,17 @@ class ListnamesController < ApplicationController
     puts :listname
     @listname = Listname.new(listname_params)
     @listname.user_id = params[:user_id]
-    @game = params[:listname][:game]
+    @nu_game = params[:listname][:nu_game]
 
     @game_params = {
-      name: @game[:name],
-      img: @game[:img],
-      bggid: @game[:bggid],
+      name: @nu_game[:name],
+      img: @nu_game[:img],
+      bggid: @nu_game[:bggid],
       listname_id: @listname[:id]
 
     }
 
-    puts @game_params
+
 
     if @listname.save
       render json: @listname, status: :created
@@ -62,6 +62,6 @@ class ListnamesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def listname_params
-      params.require(:listname).permit( :id, :user_id, :title, :game, :listname)
+      params.require(:listname).permit( :id, :user_id, :title, :nu_game, :listname)
     end
 end

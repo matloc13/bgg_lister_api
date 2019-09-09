@@ -16,11 +16,11 @@ class GamesController < ApplicationController
   # POST /games
   def create
     @game = Game.new(game_params)
-    # @game.listname_id = params[:listname_id]
+    @game.listname_id = params[:listname_id]
     # @game = params[:listname_id][:game]
 
     if @game.save
-      render json: @game, status: :created, location: @game
+      render json: @game, status: :created
     else
       render json: @game.errors, status: :unprocessable_entity
     end
