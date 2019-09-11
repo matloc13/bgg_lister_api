@@ -2,10 +2,10 @@
 # WillPaginate::BGG
   # GET /bgg_lists
   def index
-    # bgg_object = Bgg.new('')
-    bgg_object = WillPaginate::Collection.create(1, 10, total = nil)
+    bgg_object = Bgg.new('')
+    # bgg_object = WillPaginate::Collection.create(1, 10, total = nil)
      @game = bgg_object.get_bgg_list()
-    render json: @results.to_json(), status: 200
+    render json: @game.to_json(), status: 200
     # paginate json: @game.to_json(), status: 200
   end
 
