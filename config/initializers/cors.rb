@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'bgg-lister-client.herokuapp.com', 'localhost:5000'
+    origins 'bgg-lister-client.herokuapp.com', 'localhost:5000', 'localhost:3001', 'bgg-lister-2.herokuapp.com'
 
     resource '*',
       headers: :any,
